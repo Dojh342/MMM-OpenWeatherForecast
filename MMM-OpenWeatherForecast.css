@@ -42,15 +42,17 @@
 .MMM-OpenWeatherForecast .current-conditions-wrapper .current.temperature {
   line-height: 80px;
   vertical-align: middle;
+  text-align: center;
 }
 
 .MMM-OpenWeatherForecast .current-conditions-wrapper .icon {
   vertical-align: middle;
   line-height: 80px;
-  margin-right: 20px;
+  margin-right: 0px;
   width: 100px;
   height: 100px;
   display: inline-block;
+  text-align: center;
   position: relative;
 }
 
@@ -88,6 +90,7 @@
 
 .MMM-OpenWeatherForecast .summary {
   margin: 15px 0;
+  text-align: center;
 }
 
 /* Weather Alerts */
@@ -97,7 +100,7 @@
   width: 100%;
   border: solid 1px #222;
   padding: 8px;
-  text-align: left;
+  text-align: right;
   background-image: url(icons/alert-icon.svg);
   background-size: 30px 26px;
   background-repeat: no-repeat;
@@ -179,7 +182,7 @@
 
 
 .MMM-OpenWeatherForecast .wrapper.tiled .forecast-container * {
-  text-align: center;
+  text-align: right;
 }
 
 .MMM-OpenWeatherForecast .wrapper.tiled .forecast-container .forecast-item .time,
@@ -280,7 +283,7 @@
 }
 
 .MMM-OpenWeatherForecast .wrapper.table .forecast-container .header-row .date-time-header {
-  text-align: left;
+  text-align: right;
   overflow: visible;
 }
 
@@ -307,7 +310,7 @@
 
 
 .MMM-OpenWeatherForecast .wrapper.table .forecast-container .forecast-item > span:first-child {
-  text-align: left;
+  text-align: right;
 }
 .MMM-OpenWeatherForecast .wrapper.table .forecast-container .forecast-item > span:last-child {
   text-align: right;
